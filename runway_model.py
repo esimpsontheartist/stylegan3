@@ -20,7 +20,8 @@ def generate_(model , args):
     # _run_cmd('export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64')
     # _run_cmd('export PATH=$PATH:$CUDA_HOME/bin')
     _run_cmd('nvidia-smi')
-    network_pkl='https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/pretrained/ffhq.pkl'
+    network_pkl='https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-t-metfacesu-1024x1024.pkl'
+
     seed=args['z']
     trunc=0.5
     output_image =  generate_images(network_pkl, seed, trunc)
