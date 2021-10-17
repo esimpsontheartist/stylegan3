@@ -9,8 +9,11 @@ input= {
 setup_options = {
     'truncation': number(min=5, max=100, step=1, default=5)
 }
-@runway.setup(options=setup_options)
+    
+@runway.setup(options={'checkpoint': runway.file(extension='.pkl')})
 def setup(opts):
+   checkpoint_path = opts['checkpoint']
+   model = load_model_from_checkpoint(checkpoint_path)
     return opts
 
 
