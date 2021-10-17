@@ -3,3 +3,5 @@ requests==2.21.0
 runway-python
 tensorflow-gpu==1.14
 scipy
+imageio-ffmpeg==0.4.4 
+pyspng==0.1.0
