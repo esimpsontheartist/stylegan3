@@ -1,5 +1,6 @@
+pyspng==0.1.0
+imageio-ffmpeg==0.4.4
 argparse
-dnnlib
 h5py
 runway-python
 tensorflow-gpu
@@ -8,7 +9,7 @@ numpy
 click
 pillow
 scipy
-torch
+torch==1.9.1
 requests
 tqdm
 ninja
@@ -17,5 +18,3 @@ imageio
 imgui
 glfw
 pyopengl
-imageio-ffmpeg
-pyspng
