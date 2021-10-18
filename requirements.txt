@@ -1,9 +1,5 @@
 argparse
-pickle
-re
-PIL.Image
 dnnlib
-dnnlib.tflib
 h5py
 runway-python
 tensorflow-gpu
