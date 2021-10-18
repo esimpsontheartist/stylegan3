@@ -1,4 +1,6 @@
-## Modified StyleGAN3 Repo
+Attempt 1 of runway integration of SG3.  Standby.
+
+|## Modified StyleGAN3 Repo
 
 ### Changes Made
 - tied to python 3.7 syntax
