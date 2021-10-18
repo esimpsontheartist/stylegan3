@@ -7,7 +7,6 @@ click
 pillow
 scipy
 pytorch
-cudatoolkit
 requests
 tqdm
 ninja
