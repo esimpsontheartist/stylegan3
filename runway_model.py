@@ -14,7 +14,7 @@ setup_options = {
 def setup(opts):
    checkpoint_path = opts['checkpoint']
    model = load_model_from_checkpoint(checkpoint_path)
-    return opts
+   return opts
 
 
 @runway.command(name='generate',inputs=input,outputs={ 'image': image })
