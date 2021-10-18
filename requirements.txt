@@ -2,7 +2,7 @@ h5py==2.9.0
 runway-python
 tensorflow-gpu==1.14
 pyspng==0.1.0
-numpy==1.20
+numpy
 click==8.0
 pillow==8.3.1
 scipy==1.7.1
